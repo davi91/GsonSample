@@ -10,11 +10,11 @@ public class Main {
 			Scanner scan = new Scanner(System.in);
 			
 			try {
-				System.out.println("Introduzca el nombre");
+				System.out.print("Introduzca el nombre: ");
 				String s1 = scan.nextLine();
-				System.out.println("Introduzca el apellido");
+				System.out.print("Introduzca el apellido: ");
 				String s2 = scan.nextLine();
-				System.out.println("Introduzca su edad");
+				System.out.print("Introduzca su edad: ");
 				int edad = scan.nextInt();
 				
 				if( !s1.equals("") && !s2.equals("") && edad > 0 ) {
