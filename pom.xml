@@ -7,6 +7,7 @@
    <properties>
   	<maven.compiler.target>12</maven.compiler.target>
   	<maven.compiler.source>12</maven.compiler.source>
+        <exec.mainClass>dad.javafx.gson.Main</exec.mainClass>
   </properties>
   
   <dependencies>
